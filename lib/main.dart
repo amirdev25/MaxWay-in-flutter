@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'data/global/di.dart';
+import 'data/ui/HomePage.dart';
+
 void main() {
+  setUp();
   runApp(const MaxWayApp());
 }
 
